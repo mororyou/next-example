@@ -1,7 +1,11 @@
 export default function page() {
   return (
     <pre>
-        {JSON.stringify(process.env, null, 2)}
+      EXAMPLE:{process.env.EXAMPLE}
+
+      <br />
+
+      {JSON.stringify(process.env, null, 2)}
     </pre>
   )
 }
