@@ -5,6 +5,10 @@ export default function page() {
 
       <br />
 
+      VERCEL_URL:{process.env.VERCEL_URL}
+
+      <br />
+
       {JSON.stringify(process.env, null, 2)}
     </pre>
   )
